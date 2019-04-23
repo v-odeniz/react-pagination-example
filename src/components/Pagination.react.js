@@ -22,12 +22,12 @@ function Pagination({ pageSize, children }) {
   const childrenArray = _.chunk(React.Children.toArray(children), pageSize);
 
   return (
-    <>
+    <div>
       {childrenArray[currentPage]}
       <Radio.Group defaultValue={0} size={totalPages}>
         {generateNButtons(totalPages, setCurrentPage)}
       </Radio.Group>
-    </>
+    </div>
   );
 }
 
