@@ -1,6 +1,8 @@
-## Pagination Example
+# Pagination Example
 
 A simple implementation of [Pagination](https://en.wikipedia.org/wiki/Pagination).
+
+[Demo](https://codesandbox.io/s/github/denvash/react-pagination-example) 🤩
 
 
 ```javascript
@@ -23,11 +25,7 @@ function Pagination({ pageSize, children }) {
 }
 ```
 
-👉 [Live Demo](https://codesandbox.io/s/github/denvash/react-pagination-example)
-
-### Explanation
-
-Refer to [React.Children](https://reactjs.org/docs/react-api.html#reactchildren) docs.
+## References
 
 👉 `React.Children.count(children)`
 > Returns the total number of components in children, equal to the number of times that a callback passed to map or forEach would be invoked.
@@ -41,3 +39,6 @@ Refer to [React.Children](https://reactjs.org/docs/react-api.html#reactchildren)
 _.chunk(['a', 'b', 'c', 'd'], 2);
 // => [['a', 'b'], ['c', 'd']]
 ```
+
+---
+Refer to [React.Children](https://reactjs.org/docs/react-api.html#reactchildren) docs.
